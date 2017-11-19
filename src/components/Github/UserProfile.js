@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const UserProfile = ({bio}) => {
   return (
-    <div>
+     <div className="col-md-4">
       {bio.avatar_url && <li className="list-group-item"> <img src={bio.avatar_url} alt="avatar" className="img-rounded img-responsive"/></li>}
       {bio.name && <li className="list-group-item">Name: {bio.name}</li>}
       {bio.login && <li className="list-group-item">Username: {bio.login}</li>}

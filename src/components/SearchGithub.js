@@ -7,18 +7,17 @@ class SearchGithub extends React.Component {
 		super(props);
 		this.state = {username: ''};
 
-		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	getRef(ref){
 		this.usernameRef = ref;
 	}
 
-	handleSubmit(event) {
+	handleSubmit = (event) => {
 		alert('A name was submitted: ' + this.usernameRef.value);
 		this.setState({username: this.usernameRef.value});
 		event.preventDefault();
-	}
+	};
 
   render(){
     return (
