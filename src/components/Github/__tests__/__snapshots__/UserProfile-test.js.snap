@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`creates/compares snapshot for UserProfile 1`] = `
+<div
+  className="col-md-4"
+>
+  <ul>
+    <li
+      className="list-group-item"
+    >
+       
+      <img
+        alt="avatar"
+        className="img-rounded img-responsive"
+        src="https://avatars0.githubusercontent.com/u/25481546?v=4"
+      />
+    </li>
+    <li
+      className="list-group-item"
+    >
+      Name: 
+      Max Mustermann
+    </li>
+    <li
+      className="list-group-item"
+    >
+      Username: 
+      maxmu
+    </li>
+    <li
+      className="list-group-item"
+    >
+      Email: 
+      max@mustermann.de
+    </li>
+    <li
+      className="list-group-item"
+    >
+      Location: 
+      Germany
+    </li>
+    <li
+      className="list-group-item"
+    >
+      Company: 
+      Muster Company
+    </li>
+    <li
+      className="list-group-item"
+    >
+      Followers: 
+      20
+    </li>
+    <li
+      className="list-group-item"
+    >
+      Following: 
+      32
+    </li>
+  </ul>
+</div>
+`;
