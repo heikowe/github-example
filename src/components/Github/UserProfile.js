@@ -19,7 +19,6 @@ const UserProfile = ({bio}) => {
 }
 
 UserProfile.propTypes = {
-  username: PropTypes.string.isRequired,
   bio: PropTypes.object.isRequired
 }
 
