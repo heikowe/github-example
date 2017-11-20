@@ -20,7 +20,6 @@ const Repos = ({repos}) => {
 }
 
 Repos.propTypes = {
-	username: PropTypes.string.isRequired,
 	repos: PropTypes.array.isRequired
 }
 
