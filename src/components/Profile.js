@@ -35,8 +35,8 @@ class Profile extends React.Component {
 	render() {
 		return (
 			<div className="row">
-				<UserProfile username={this.props.username} bio={this.state.bio}/>
-				<Repos username={this.props.username} repos={this.state.repos}/>
+				<UserProfile bio={this.state.bio}/>
+				<Repos repos={this.state.repos}/>
 			</div>
 		)
 	}
